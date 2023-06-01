@@ -15,22 +15,22 @@ public class tblpelajaran {
     
     public tblpelajaran(){}
     
-    public void setKd_pel(int NOP) {
-        this.Kd_pel=Kd_pel;
+    public void setKdpel(int KodePelajaran) {
+        this.Kd_pel=KodePelajaran;
     }
-    public int getKd_pel() {
+    public int getKdpel() {
         return this.Kd_pel;
     }
     
-    public void setNm_pel(String NOP) {
-        this.Nm_pel=Nm_pel;
+    public void setNmpel(String NamaPelajaran) {
+        this.Nm_pel=NamaPelajaran;
     }
-    public String getNm_pel() {
+    public String getNmpel() {
         return this.Nm_pel;
     }
     
-    public void setKkm(int NOP) {
-        this.Kkm=Kkm;
+    public void setKkm(int KKM) {
+        this.Kkm=KKM;
     }
     public int getKkm() {
         return this.Kkm;

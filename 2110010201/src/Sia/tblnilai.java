@@ -9,70 +9,70 @@ package Sia;
  * @author mzenm
  */
 public class tblnilai {
-    private int Kd_kelas;
-    private String Nis;
-    private String Nik;
-    private int Kd_pel;
-    private int Nil_uts;
-    private int Nil_uas;
-    private int Nil_tgs;
-    private int Absen;
+    private int kd_kelas;
+    private String nis;
+    private String nik;
+    private int kd_pel;
+    private int nil_uts;
+    private int nil_uas;
+    private int nil_tgs;
+    private int absen;
     
     public tblnilai(){}
     
     public void setKdKelas(int KodeKelas) {
-        this.Kd_kelas=KodeKelas;
+        this.kd_kelas=KodeKelas;
     }
-    public int getKodeKelas() {
-        return this.Kd_kelas;
-    }
-    
-    public void setNoIndukSiswa(String NomorIndukSiswa) {
-        this.Nis=NomorIndukSiswa;
-    }
-    public String getNomorIndukSiswa() {
-        return this.Nis;
+    public int getKdKelas() {
+        return this.kd_kelas;
     }
     
-    public void setNoIndukKaryawan(String NomorIndukKaryawan) {
-        this.Nik=NomorIndukKaryawan;
+    public void setNis(String NomorIndukSiswa) {
+        this.nis=NomorIndukSiswa;
+    }
+    public String getNis() {
+        return this.nis;
+    }
+    
+    public void setNik(String NomorIndukKaryawan) {
+        this.nik=NomorIndukKaryawan;
     }
     public String getNomorIndukKaryawan() {
-        return this.Nik;
+        return this.nik;
     }
     
     public void setKdPel(int KodePelajaran) {
-        this.Kd_pel=KodePelajaran;
+        this.kd_pel=KodePelajaran;
     }
-    public int getKodePelajaran() {
-        return this.Kd_pel;
+    public int getKdPel() {
+        return this.kd_pel;
     }
     
     public void setNilUts(int NilaiUts) {
-        this.Nil_uts=NilaiUts;
+        this.nil_uts=NilaiUts;
     }
-    public int getNillaiUts() {
-        return this.Nil_uts;
+    public int getNilUts() {
+        return this.nil_uts;
     }
     
     public void setNilUas(int NilaiUas) {
-        this.Nil_uas=NilaiUas;
+        this.nil_uas=NilaiUas;
     }
-    public int getNilaiUas() {
-        return this.Nil_uas;
+    public int getNilUas() {
+        return this.nil_uas;
     }
     
     public void setNilTgs(int NilaiTgs) {
-        this.Nil_tgs=NilaiTgs;
+        this.nil_tgs=NilaiTgs;
     }
-    public int getNilaiTgs() {
-        return this.Nil_tgs;
+    public int getNilTgs() {
+        return this.nil_tgs;
     }
     
-    public void setAbs(int Absen) {
-        this.Absen=Absen;
+    public void setAbsen(int Absen) {
+        this.absen=Absen;
     }
     public int getAbsen() {
-        return this.Absen;
+        return this.absen;
     }
 }

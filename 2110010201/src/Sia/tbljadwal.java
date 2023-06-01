@@ -9,54 +9,54 @@ package Sia;
  * @author mzenm
  */
 public class tbljadwal {
-    private int Id_jadwal;
-    private int Kd_kelas;
-    private int Kd_pel;
-    private String Nik;
-    private String Jam_masuk;
-    private String Hari_masuk;
+    private int id_jadwal;
+    private int kd_kelas;
+    private int kd_pel;
+    private String nik;
+    private String jam_masuk;
+    private String hari_masuk;
     
     public tbljadwal() {}
     
-    public void setIdJad(int IdJadwal) {
-        this.Id_jadwal=IdJadwal;
+    public void setIdJadwal(int IdJadwal) {
+        this.id_jadwal=IdJadwal;
     }
     public int getIdJadwal() {
-        return this.Id_jadwal;
+        return this.id_jadwal;
     }
     
     public void setKdKelas(int KodeKelas) {
-        this.Kd_kelas=KodeKelas;
+        this.kd_kelas=KodeKelas;
     }
-    public int getKodeKelas() {
-        return this.Kd_kelas;
+    public int getKdKelas() {
+        return this.kd_kelas;
     }
     
     public void setKdPel(int KodePelajaran) {
-        this.Kd_pel=KodePelajaran;
+        this.kd_pel=KodePelajaran;
     }
-    public int getKodedPelajaran() {
-        return this.Kd_pel;
-    }
-    
-    public void setNoInduk(String NomorIndukKaryawan) {
-        this.Nik=NomorIndukKaryawan;
-    }
-    public String getNomorIndukKaryawan() {
-        return this.Nik;
+    public int getKodePel() {
+        return this.kd_pel;
     }
     
-    public void setJam(String JamMasuk) {
-        this.Jam_masuk=JamMasuk;
+    public void setNik(String NomorIndukKaryawan) {
+        this.nik=NomorIndukKaryawan;
+    }
+    public String getNik() {
+        return this.nik;
+    }
+    
+    public void setJamMasuk(String JamMasuk) {
+        this.jam_masuk=JamMasuk;
     }
     public String getJamMasuk() {
-        return this.Jam_masuk;
+        return this.jam_masuk;
     }
     
-    public void setHari(String HariMasuk) {
-        this.Hari_masuk=HariMasuk;
+    public void setHariMasuk(String HariMasuk) {
+        this.hari_masuk=HariMasuk;
     }
     public String getHariMasuk() {
-        return this.Hari_masuk;
+        return this.hari_masuk;
     }
 }

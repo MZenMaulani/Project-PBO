@@ -9,111 +9,111 @@ package Sia;
  * @author mzenm
  */
 public class tblguru {
-    private String Nik;
-    private String Nama_guru;
-    private String Tmpt_lhr_guru;
-    private String Tgl_lhr_guru;
-    private String Pass_guru;   
-    private String Agm_guru;
-    private String Jk_guru;
-    private String Tlp_guru;
-    private String Email_guru;
-    private String Almt_guru;
-    private String Pend_guru;
-    private String Status_kawin;
-    private String Jab;
+    private String nik;
+    private String nama_guru;
+    private String tmpt_lhr_guru;
+    private String tgl_lhr_guru;
+    private String pass_guru;   
+    private String agm_guru;
+    private String jk_guru;
+    private String tlp_guru;
+    private String email_guru;
+    private String almt_guru;
+    private String pend_guru;
+    private String status_kawin;
+    private String jab;
     
     public tblguru() {}
     
-    public void setNoIndukKaryawan(String NomorIndukKaryawan) {
-        this.Nik=NomorIndukKaryawan;
+    public void setNik(String NomorIndukKaryawan) {
+        this.nik=NomorIndukKaryawan;
     }
-    public String getNomorIndukKaryawan() {
-        return this.Nik;
+    public String getNik() {
+        return this.nik;
     }
     
-    public void setNmGuru(String NamaGuru) {
-        this.Nama_guru=NamaGuru;
+    public void setNamaGuru(String NamaGuru) {
+        this.nama_guru=NamaGuru;
     }
     public String getNamaGuru() {
-        return this.Nama_guru;
+        return this.nama_guru;
     }
     
     public void setTmptLhrGuru(String TempatLahirGuru) {
-    this.Tmpt_lhr_guru=TempatLahirGuru;
+    this.tmpt_lhr_guru=TempatLahirGuru;
     }
-    public String getTempatLahirGuru() {
-        return this.Tmpt_lhr_guru;
+    public String getTmptLhrGuru() {
+        return this.tmpt_lhr_guru;
     }
     
     public void setTglLhrGuru(String TanggalLahirGuru) {
-    this.Tgl_lhr_guru=TanggalLahirGuru;
+    this.tgl_lhr_guru=TanggalLahirGuru;
     }
-    public String getTanggalLahirGuru() {
-        return this.Tgl_lhr_guru;
+    public String getTglLhrGuru() {
+        return this.tgl_lhr_guru;
     }
 
     public void setPassGuru(String PasswordGuru) {
-        this.Pass_guru=PasswordGuru;
+        this.pass_guru=PasswordGuru;
     }
-    public String getPasswordGuru() {
-        return this.Pass_guru;
+    public String getPassGuru() {
+        return this.pass_guru;
     }
     
     public void setAgmGuru(String AgamaGuru) {
-        this.Agm_guru=AgamaGuru;
+        this.agm_guru=AgamaGuru;
     }
-    public String getAgamaGuru() {
-        return this.Agm_guru;
+    public String getAgmGuru() {
+        return this.agm_guru;
     }
     
     public void setJkGuru(String JenisKelaminGuru) {
-        this.Jk_guru=JenisKelaminGuru;
+        this.jk_guru=JenisKelaminGuru;
     }
-    public String getJenisKelaminGuru() {
-        return this.Jk_guru;
+    public String getJkGuru() {
+        return this.jk_guru;
     }
     
     public void setTlpGuru(String TeleponGuru) {
-        this.Tlp_guru=TeleponGuru;
+        this.tlp_guru=TeleponGuru;
     }
-    public String getTeleponGuru() {
-        return this.Tlp_guru;
+    public String getTlpGuru() {
+        return this.tlp_guru;
     }
     
-    public void setEmail(String EmailGuru) {
-        this.Email_guru=EmailGuru;
+    public void setEmailGuru(String EmailGuru) {
+        this.email_guru=EmailGuru;
     }
     public String getEmailGuru() {
-        return this.Email_guru;
+        return this.email_guru;
     }
     
-    public void AlmtGuru(String AlamatGuru) {
-        this.Almt_guru=AlamatGuru;
+    public void setAlmtGuru(String AlamatGuru) {
+        this.almt_guru=AlamatGuru;
     }
-    public String getAlamatGuru() {
-        return this.Almt_guru;
+    public String getAlmtGuru() {
+        return this.almt_guru;
     }
     
     public void setPendGuru(String PendidikanGuru) {
-        this.Pend_guru=PendidikanGuru;
+        this.pend_guru=PendidikanGuru;
     }
-    public String getPendidikanGuru() {
-        return this.Pend_guru;
+    public String getPendGuru() {
+        return this.pend_guru;
     }
     
-   public void setStatus(String StatusKawin) {
-        this.Status_kawin=StatusKawin;
+   public void setStatusKawin(String StatusKawin) {
+        this.status_kawin=StatusKawin;
     }
     public String getStatusKawin() {
-        return this.Status_kawin;
+        return this.status_kawin;
     } 
     
     public void setJab(String Jabatan) {
-        this.Jab=Jabatan;
+        this.jab=Jabatan;
     }
-    public String getJabatan() {
-        return this.Jab;
+    public String getJab() {
+        return this.jab;
     }
     
 }

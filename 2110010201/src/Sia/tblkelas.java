@@ -9,31 +9,31 @@ package Sia;
  * @author mzenm
  */
 public class tblkelas {
-    private int Kd_kelas;
-    private String Kelas;
-    private String Kapasitas;
+    private int kd_kelas;
+    private String kelas;
+    private String kapasitas;
     
     
     public tblkelas() {}
         
     public void setKdKelas(int KodeKelas) {
-        this.Kd_kelas=KodeKelas;
+        this.kd_kelas=KodeKelas;
     }
-    public int getKodeKelas() {
-        return this.Kd_kelas;
+    public int getKdKelas() {
+        return this.kd_kelas;
     }
     
-   public void setKls(String Kelas) {
-        this.Kelas=Kelas;
+   public void setKelas(String Kelas) {
+        this.kelas=Kelas;
     }
     public String getKelas() {
-        return this.Kelas;
+        return this.kelas;
     } 
     
-    public void setKps(String Kapasitas) {
-        this.Kapasitas=Kapasitas;
+    public void setKapasitas(String Kapasitas) {
+        this.kapasitas=Kapasitas;
     }
     public String getKapasitas() {
-        return this.Kapasitas;
+        return this.kapasitas;
     }
 }
